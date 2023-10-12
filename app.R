@@ -249,7 +249,7 @@ ui <- fluidPage(
                                 tabPanel("Working Memory", style = "font-size:25px",
                                   fluidRow(width=6,
                                     box(width=5,
-                                        h3("WAIS-IV subtests for assessing working memory"),
+                                        h2("WAIS-IV subtests for assessing working memory"),
                                         img(src="digit_span.PNG", width="100%", height="100%"),
                                         helpText("A. Across three phases of the Digit Span test, the examiner reads digits aloud and the examinee repeats them back in forward order, 
                                                  in backward order, or rearranges the numbers to be in sequential order."),
@@ -316,7 +316,7 @@ ui <- fluidPage(
                                            tabPanel("Verbal Comprehension", style = "font-size:25px",
                                                     fluidRow(
                                                       box(width=5,
-                                                          h2("WAIS-IV subtests for assessing working memory"),
+                                                          h2("WAIS-IV subtests for assessing verbal comprehension"),
                                                           img(src="similarities.PNG", width="75%", height="75%"),
                                                           helpText("A. In the Similarities test, the examinee identifies a commonality between two items named by the examiner."),
                                                           br(),
